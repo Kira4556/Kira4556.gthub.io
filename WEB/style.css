@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #aa7b3e;
+  color: #2d1c06c8;
+}
+
+.hero {
+  background: linear-gradient(rgba(75, 63, 51, 0.6), rgba(75, 63, 51, 0.6)),
+              url('images/fondo-header.jpg') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .overlay {
+  color: #674019;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.biografias {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.persona {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.persona.reverse {
+  flex-direction: row-reverse;
+}
+
+.persona img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #121212;
+  color: #111010;
+  text-align: center;
+  padding: 2rem;
+}
